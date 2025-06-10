@@ -1,5 +1,7 @@
 # n8n Server Setup
 
+Repositorio: https://github.com/scooller/n8n-server
+
 This project sets up an n8n server using Docker. Below are the instructions and details for getting started.
 
 ## Prerequisites
@@ -28,7 +30,7 @@ n8n-server
    Clone this repository to your local machine:
 
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/scooller/n8n-server
    cd n8n-server
    ```
 
