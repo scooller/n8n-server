@@ -1,0 +1,31 @@
+{
+  "database": {
+    "type": "postgresdb",
+    "host": "db",
+    "port": 5432,
+    "user": "n8n",
+    "password": "your_password",
+    "database": "n8n"
+  },
+  "webhookUrl": "http://localhost:5678/",
+  "port": 5678,
+  "protocol": "http",
+  "timezone": "UTC",
+  "security": {
+    "basicAuth": {
+      "enabled": true,
+      "user": "admin",
+      "password": "your_password"
+    }
+  },
+  "executions": {
+    "mode": "queue",
+    "retry": 3
+  },
+  "nodes": {
+    "default": {
+      "type": "n8n-nodes-base.start",
+      "name": "Start"
+    }
+  }
+}
