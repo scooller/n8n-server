@@ -36,8 +36,6 @@ services:
       - MYSQL_USER=scooller_n8nuser
       - MYSQL_PASSWORD=(gZBAK?{y_0b
       - MYSQL_ROOT_PASSWORD=root_password_seguro
-    ports:
-      - '3306:3306'
     volumes:
       - mysql_data:/var/lib/mysql
 
