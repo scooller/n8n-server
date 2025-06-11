@@ -11,15 +11,15 @@ services:
       - DB_MYSQLDB_PASSWORD=(gZBAK?{y_0b
       - DB_MYSQLDB_HOST=mysql
       - DB_MYSQLDB_PORT=3306
-      - N8N_HOST=scooller.it.eu.org
+      - N8N_HOST=scooller.work.gd
       - N8N_PORT=5678
-      - N8N_PROTOCOL=http
+      - N8N_PROTOCOL=https
       - N8N_BASIC_AUTH_ACTIVE=true
       - N8N_BASIC_AUTH_USER=admin
       - N8N_BASIC_AUTH_PASSWORD=rxwWte4ALzRE/jmhUO2+4uN+0EY6BTunv7bhYxo4/C4=
       - N8N_LOG_LEVEL=info
       - N8N_ENCRYPTION_KEY=pon_aqui_una_clave_larga_y_unica
-      - N8N_WEBHOOK_URL=http://scooller.it.eu.org/webhook
+      - N8N_WEBHOOK_URL=https://scooller.work.gd/webhook
       - N8N_TIMEZONE=UTC
     ports:
       - '5678:5678'
